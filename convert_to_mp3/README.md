@@ -40,7 +40,7 @@ During the conversion, the mp3 informations will be written in the following ord
 - mp3_album : mkv_artist
 - mp3_comment : mkv_comment
 - mp3_cover_image : mkv_thumbnail_image
-- mp3_year : mkv_date
+- mp3_year(YYYY) : mkv_date(YYYYMMDD)
 - mp3_lyrics : mkv_lyrics
 
 ## Subtitle conversion
