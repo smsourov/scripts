@@ -18,7 +18,7 @@
 
 # About
 
-A simple powershell program to add a directory in the Path variable.
+A simple powershell program to add a directory in the Path variable. The benefit of using this script that it will notifiy the user if the directory is already present in the PATH and in which path the directory is present.
 
 # Parameters
 
