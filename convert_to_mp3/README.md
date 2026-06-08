@@ -107,7 +107,7 @@ py -m pip install mutagen
 # Parameters
 
 It accepts two unnamed parameters. 
-- **Source Directory**: The directory where the MP4/MKV files are located.
+- **SOURCE Directory**: The directory where the MP4/MKV files are located.
 - **DESTINATION Directory**: The directory where the converted files will be saved.
 
 # Examples
