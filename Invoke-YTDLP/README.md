@@ -7,7 +7,7 @@
 - AI model
     
     - [ ] ChatGPT
-    - [ ] Claude
+    - [x] Claude
     - [ ] Gemini
     - [ ] Qwen
     - [ ] Deepseek
