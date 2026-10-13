@@ -1,0 +1,29 @@
+[package]
+name = "script-manager"
+version = "0.3.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.13", features = ["tokio"] }
+tray-icon = "0.19"
+raw-window-handle = "0.6"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"
+dirs = "5"
+rfd = "0.15"
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.52"
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_Security",
+    "Win32_System_Threading",
+    "Win32_UI_Input_KeyboardAndMouse",
+    "Win32_UI_WindowsAndMessaging",
+] }
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true
