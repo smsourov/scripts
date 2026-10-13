@@ -1,3 +1,25 @@
+# The Code
+
+- [x] Vibe coded
+
+- [ ] Vibe coded and manually modified
+
+- AI model
+    
+    - [ ] ChatGPT
+    - [x] Claude
+    - [ ] Gemini
+    - [ ] Qwen
+    - [ ] Deepseek
+
+- [ ] Hand typed
+
+- [x] Tested and verified
+
+# About
+
+A simple program to manage startup scripts in Windows OS.
+
 # Script Manager (Rust + Iced)
 
 Runs scripts at manager start (with optional delay) or at specific times, lives in the
